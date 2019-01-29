@@ -4,5 +4,10 @@ class Dog
     @@all << self
   end
   
-  def 
+  def self.all
+    @@all.each {|pup| puts pup}
+  end
+  
+  def self.clear_all
+  end
 end
